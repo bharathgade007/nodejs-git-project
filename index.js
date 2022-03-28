@@ -24,6 +24,7 @@ http
                 Response.writeHead(404,{
                     "Content-Type":"text/html",
                 });
+                console.log("404 page visited");
                 Response.write("<p>404 Page Not found!</p>");
                 Response.end();
                 break;
